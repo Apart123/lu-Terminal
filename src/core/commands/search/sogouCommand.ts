@@ -2,7 +2,6 @@ import { CommandType } from "../../command";
 
 /**
  * 搜狗搜索命令
- * @author Edmon-Leo
  */
 const sogouCommand: CommandType = {
   func: "sogou",

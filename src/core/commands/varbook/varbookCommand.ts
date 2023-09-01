@@ -1,11 +1,10 @@
 import { CommandType } from "../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 import { checkSearchText } from "./hooks/character/standard";
 
 /**
  * 变量命名命令
- * @author uiuing
  */
 const varbookCommand: CommandType = {
   func: "varbook",

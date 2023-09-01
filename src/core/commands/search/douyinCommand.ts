@@ -2,7 +2,6 @@ import { CommandType } from "../../command";
 
 /**
  * 抖音搜索命令
- * @author yupi
  */
 const douyinCommand: CommandType = {
   func: "douyin",

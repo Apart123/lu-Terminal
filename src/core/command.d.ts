@@ -1,5 +1,5 @@
 import { ParsedOptions } from "getopts";
-import TerminalType = YuTerminal.TerminalType;
+import TerminalType = LuTerminal.TerminalType;
 
 /**
  * 命令类型

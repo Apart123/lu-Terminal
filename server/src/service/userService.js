@@ -10,7 +10,7 @@ const UserModel = require("../model/user");
 const md5 = require("md5");
 
 // 密码加盐
-const SALT = "coder_yupi";
+const SALT = "coder_luying";
 
 /**
  * 获取当前登录用户

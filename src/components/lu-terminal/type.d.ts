@@ -1,4 +1,4 @@
-declare namespace YuTerminal {
+declare namespace LuTerminal {
   /**
    * 输出状态
    */

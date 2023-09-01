@@ -1,10 +1,9 @@
 import { CommandType } from "../../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 
 /**
  * 快捷键命令
- * @author yupi
  */
 const shortcutCommand: CommandType = {
   func: "shortcut",

@@ -1,11 +1,10 @@
 import { CommandType } from "../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 import addCommand from "./subCommands/addCommand";
 
 /**
  * 待办事项命令
- * @author yupi
  */
 const todoCommand: CommandType = {
   func: "todo",

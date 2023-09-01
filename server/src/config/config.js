@@ -11,7 +11,7 @@ module.exports = {
   },
   // MySQL 配置
   dbConfig: {
-    database: "yuindex",
+    database: "luindex",
     username: "root",
     password: "123456",
     host: "localhost",

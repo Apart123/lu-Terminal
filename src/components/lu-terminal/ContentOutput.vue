@@ -16,7 +16,7 @@
 
 <script setup lang="ts">
 import smartText from "../../utils/smartText";
-import OutputType = YuTerminal.OutputType;
+import OutputType = LuTerminal.OutputType;
 import { computed, toRefs } from "vue";
 
 interface OutputProps {

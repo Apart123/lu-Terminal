@@ -1,10 +1,9 @@
 import { CommandType } from "../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 
 /**
  * 热榜命令
- * @author yupi
  */
 const hotCommand: CommandType = {
   func: "hot",

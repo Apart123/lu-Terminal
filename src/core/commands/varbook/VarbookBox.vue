@@ -26,8 +26,8 @@
 import { reactive, ref, toRefs } from "vue";
 import { getNamedVariables } from "./hooks/api/rest/translate";
 import { parseNamedVariable } from "./hooks/character/standard";
-import ContentOutput from "../../../components/yu-terminal/ContentOutput.vue";
-import OutputType = YuTerminal.OutputType;
+import ContentOutput from "../../../components/lu-terminal/ContentOutput.vue";
+import OutputType = LuTerminal.OutputType;
 
 interface VariableBoxProps {
   searchText: string;

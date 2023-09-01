@@ -3,7 +3,6 @@ import { useSpaceStore } from "./space/spaceStore";
 
 /**
  * 跳转命令
- * @author yupi
  */
 export default {
   func: "goto",

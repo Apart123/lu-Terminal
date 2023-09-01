@@ -6,7 +6,6 @@ import { useTerminalConfigStore } from "../../core/commands/terminal/config/term
 
 /**
  * 命令提示功能
- * @author yupi
  */
 const useHint = () => {
   const hint = ref("");
@@ -50,7 +49,7 @@ const useHint = () => {
    */
   const debounceSetHint = _.debounce(function (inputText: string) {
     setHint(inputText);
-  }, 500);
+  }, 200);
 
   return {
     hint,

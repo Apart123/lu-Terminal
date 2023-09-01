@@ -3,7 +3,6 @@ const sequelize = require("../db");
 
 /**
  * 用户模型
- * @author yupi
  */
 const UserModel = sequelize.define(
   "User",

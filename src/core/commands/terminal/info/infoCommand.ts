@@ -1,10 +1,9 @@
 import { CommandType } from "../../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 
 /**
  * 查看网站本身信息命令
- * @author yupi
  */
 const infoCommand: CommandType = {
   func: "info",

@@ -8,7 +8,6 @@ import logoutCommand from "./subCommands/logoutCommand";
 
 /**
  * 用户命令
- * @author yupi
  */
 const userCommand: CommandType = {
   func: "user",

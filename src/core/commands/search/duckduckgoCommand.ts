@@ -2,7 +2,6 @@ import { CommandType } from "../../command";
 
 /**
  * DuckDuckGo 搜索命令
- * @author Edmon-Leo
  */
 const duckduckgoCommand: CommandType = {
   func: "duckduckgo",

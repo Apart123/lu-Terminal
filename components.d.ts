@@ -19,10 +19,10 @@ declare module '@vue/runtime-core' {
     AListItemMeta: typeof import('ant-design-vue/es')['ListItemMeta']
     ARow: typeof import('ant-design-vue/es')['Row']
     ATag: typeof import('ant-design-vue/es')['Tag']
-    ContentOutput: typeof import('./src/components/yu-terminal/ContentOutput.vue')['default']
-    LuTerminal: typeof import('./src/components/lu-terminal/YuTerminal.vue')['default']
+    ContentOutput: typeof import('./src/components/lu-terminal/ContentOutput.vue')['default']
+    LuTerminal: typeof import('./src/components/lu-terminal/LuTerminal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    YuTerminal: typeof import('./src/components/yu-terminal/YuTerminal.vue')['default']
+    YuTerminal: typeof import('./src/components/lu-terminal/YuTerminal.vue')['default']
   }
 }

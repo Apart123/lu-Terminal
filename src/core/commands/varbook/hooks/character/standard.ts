@@ -1,4 +1,4 @@
-import TerminalType = YuTerminal.TerminalType;
+import TerminalType = LuTerminal.TerminalType;
 
 const STYLE_LANG: { [key: string]: string } = {
   smallHump: "小驼峰",

@@ -1,8 +1,7 @@
 /**
  * 快捷键系统
- * @author yupi
  */
-import TerminalType = YuTerminal.TerminalType;
+import TerminalType = LuTerminal.TerminalType;
 
 /**
  * 注册快捷键

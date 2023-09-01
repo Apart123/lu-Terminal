@@ -1,6 +1,5 @@
 /**
  * 接口路由
- * @author yupi
  */
 const routes = [
   {

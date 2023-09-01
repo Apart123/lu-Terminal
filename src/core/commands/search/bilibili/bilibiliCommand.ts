@@ -1,12 +1,11 @@
 import { CommandType } from "../../../command";
 import { defineAsyncComponent } from "vue";
-import ComponentOutputType = YuTerminal.ComponentOutputType;
+import ComponentOutputType = LuTerminal.ComponentOutputType;
 
 const baseUrl = "https://www.baidu.com/s";
 
 /**
  * B 站搜索命令
- * @author yupi
  */
 const bilibiliCommand: CommandType = {
   func: "bilibili",

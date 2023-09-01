@@ -93,22 +93,22 @@ import {
   toRefs,
   watchEffect,
 } from "vue";
-import CommandOutputType = YuTerminal.CommandOutputType;
-import OutputType = YuTerminal.OutputType;
-import CommandInputType = YuTerminal.CommandInputType;
+import CommandOutputType = LuTerminal.CommandOutputType;
+import OutputType = LuTerminal.OutputType;
+import CommandInputType = LuTerminal.CommandInputType;
 import { registerShortcuts } from "./shortcuts";
-import TerminalType = YuTerminal.TerminalType;
-import TextOutputType = YuTerminal.TextOutputType;
+import TerminalType = LuTerminal.TerminalType;
+import TextOutputType = LuTerminal.TextOutputType;
 import useHistory from "./history";
 import ContentOutput from "./ContentOutput.vue";
-import OutputStatusType = YuTerminal.OutputStatusType;
+import OutputStatusType = LuTerminal.OutputStatusType;
 import { useTerminalConfigStore } from "../../core/commands/terminal/config/terminalConfigStore";
 import useHint from "./hint";
 import UserType = User.UserType;
 import { LOCAL_USER } from "../../core/commands/user/userConstant";
 import { defineStore } from "pinia";
 
-interface YuTerminalProps {
+interface LuTerminalProps {
   height?: string | number;
   fullScreen?: boolean;
   user?: UserType;
@@ -116,7 +116,7 @@ interface YuTerminalProps {
   onSubmitCommand?: (inputText: string) => void;
 }
 
-const props = withDefaults(defineProps<YuTerminalProps>(), {
+const props = withDefaults(defineProps<LuTerminalProps>(), {
   height: "400px",
   fullScreen: false,
   user: LOCAL_USER as any,
@@ -420,7 +420,7 @@ onMounted(() => {
  */
 function handleClickWrapper(event: Event): void {
   //@ts-ignore
-  if (event.target.className === "yu-terminal") {
+  if (event.target.className === "lu-terminal") {
     focusInput();
   }
 }
