@@ -1,8 +1,6 @@
-# YuIndex - 极客范儿的浏览器主页
+# 终端式的浏览器主页
 
-在线体验：[http://yuindex.yupi.icu](http://yuindex.yupi.icu)
 
-视频演示：[https://www.bilibili.com/video/BV19B4y1Y7m8/](https://www.bilibili.com/video/BV19B4y1Y7m8/)
 
 ![YuIndex 定制你的最强主页](./doc/assets/docpic1.png)
 
@@ -11,7 +9,7 @@
 
 
 
-## LuIndex 是什么？
+## Lu-Terminal 是什么？
 
 一个很特别的浏览器主页，支持使用输入命令的方式来操作，目标是帮你在一个 web 终端中高效完成所有的事情！（all in one）
 
@@ -37,8 +35,8 @@
 
 ```bash
 baidu 程序员鱼皮
-github yuindex
-goto yupi.icu
+github Apart123
+goto baidu.com
 todo
 music 坤坤
 moyu
@@ -63,7 +61,6 @@ history
 ### 用户
 
 - 无需鼠标，即可快速完成操作（比如从不同平台搜索内容）
-- 极简炫酷，极客范儿，Linux 的味道~
 - 支持快捷键、帮助和输入提示，降低使用成本
 - 支持定制背景等，打造你的个性主页
 - 帮助你熟悉 Linux 命令，感受到编程的乐趣
