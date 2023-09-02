@@ -2,9 +2,9 @@
 
 
 
-![YuIndex 定制你的最强主页](./doc/assets/docpic1.png)
+![LuIndex 定制你的最强主页](./doc/assets/docpic1.png)
 
-![YuIndex 用命令来控制网页](./doc/assets/docpic2.png)
+![LuIndex 用命令来控制网页](./doc/assets/docpic2.png)
 
 
 
@@ -19,26 +19,25 @@
 
 
 
-你可以将音乐、游戏，甚至可以将自己的偶像封装到主页~
+你可以将音乐、游戏，封装到主页~
 
 ![](./doc/assets/docpic3.png)
-
-![](./doc/assets/docpic4.png)
 
 
 
 ### 1 分钟上手使用
 
-请打开网站：https://yuindex.com
+请打开网站：目前没有上线，请拉取源代码安装依赖后本地运行
+源代码地址：https://github.com/Apart123/lu-Terminal
 
 然后在网站内依次输入以下命令：
 
 ```bash
-baidu 程序员鱼皮
+baidu 什么是终端
 github Apart123
 goto baidu.com
 todo
-music 坤坤
+music 嘉宾
 moyu
 按键 Ctrl + O 触发折叠, 再按可展开
 history
@@ -50,9 +49,6 @@ history
 使用 `shortcut` 可以查看所有的快捷键。
 
 > 完整命令用法请见：[命令手册](./doc/commands.md)
-
-尽情探索吧~
-
 
 
 
@@ -115,7 +111,6 @@ history
 - 更换背景 background
 - 听音乐 music
 - 摸鱼小游戏 moyu
-- 坤坤 ikun
 - 其他。。。
 
 
@@ -166,8 +161,6 @@ history
 - 百度翻译 API
 - 新浪壁纸 API
 
-[点击了解后端详情](server/README.md)
-
 
 
 ## 目录结构
@@ -177,7 +170,7 @@ history
 - src
   - assets 静态资源
   - components 组件
-    - yu-terminal 终端组件
+    - lu-terminal 终端组件
   - configs 配置
     - routes 路由
   - core 核心

@@ -13,7 +13,7 @@ module.exports = {
   dbConfig: {
     database: "luindex",
     username: "root",
-    password: "123456",
+    password: "13120199525ly",
     host: "localhost",
     port: 3306,
   },

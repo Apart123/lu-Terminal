@@ -1,4 +1,4 @@
-# YuIndex 后端
+# LuTerminal 后端
 
 ## 技术栈
 
@@ -42,9 +42,9 @@
 ```javascript
 // MySQL 配置
 dbConfig: {
-  database: "yuindex",
+  database: "luindex",
   username: "root",
-  password: "123456",
+  password: "",
   host: "localhost",
   port: 3306,
 },

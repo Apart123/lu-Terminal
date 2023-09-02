@@ -5,6 +5,7 @@
     @click="handleClickWrapper"
   >
     <div ref="terminalRef" class="lu-terminal" :style="mainStyle">
+      <!--命令列表-->
       <a-collapse
         v-model:activeKey="activeKeys"
         :bordered="false"
@@ -58,6 +59,7 @@
           </template>
         </template>
       </a-collapse>
+      <!--输入框-->
       <div class="terminal-row">
         <a-input
           ref="commandInputRef"
