@@ -1,5 +1,5 @@
 <template>
-  <yu-terminal
+  <lu-terminal
     ref="terminalRef"
     :user="loginUser"
     full-screen
