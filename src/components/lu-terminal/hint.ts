@@ -52,6 +52,7 @@ const useHint = () => {
   }, 200);
 
   return {
+    // 提示、操作提示/设置提示、防抖设置提示
     hint,
     setHint,
     debounceSetHint,

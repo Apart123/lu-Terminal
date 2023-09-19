@@ -8,6 +8,7 @@ import TerminalType = LuTerminal.TerminalType;
  * @param terminal
  */
 export const registerShortcuts = (terminal: TerminalType) => {
+  // 全局监听按下的键
   document.onkeydown = (e) => {
     // console.log(e);
     let key = e.key;
