@@ -15,11 +15,16 @@ import { storeToRefs } from "pinia";
 
 const terminalRef = ref();
 
+/**
+ * 回车触发事件 --> 命令解析
+ * @param inputText
+ */
 const onSubmitCommand = async (inputText: string) => {
   if (!inputText) {
     return;
   }
   const terminal = terminalRef.value.terminal;
+  // 命令解析
   await doCommandExecute(inputText, terminal);
 };
 
