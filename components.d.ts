@@ -23,6 +23,6 @@ declare module '@vue/runtime-core' {
     LuTerminal: typeof import('./src/components/lu-terminal/LuTerminal.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    YuTerminal: typeof import('./src/components/lu-terminal/LuTerminal.vue')['default']
+    YuTerminal: typeof import("./src/components/lu-terminal/LuTerminal.vue")["default"]
   }
 }

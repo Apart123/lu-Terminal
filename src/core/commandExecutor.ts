@@ -20,7 +20,7 @@ export const doCommandExecute = async (
   if (!text) {
     return;
   }
-  // 解析文本，得到命令
+  // 解析文本，得到命令（匹配器）
   const command: CommandType = getCommand(text, parentCommand);
   if (!command) {
     terminal.writeTextErrorResult("找不到命令");

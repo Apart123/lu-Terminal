@@ -1,6 +1,5 @@
 /**
  * 默认配置
- * @author luying
  */
 module.exports = {
   redisConfig: {

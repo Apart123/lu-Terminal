@@ -23,6 +23,7 @@ const onSubmitCommand = async (inputText: string) => {
   if (!inputText) {
     return;
   }
+  // 获取终端对象
   const terminal = terminalRef.value.terminal;
   // 命令解析
   await doCommandExecute(inputText, terminal);
